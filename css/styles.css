@@ -37,24 +37,24 @@ button {
 .hero {
   background-color: #2e2f42;
   text-align: center;
-  padding: 120px 0;
+  padding: 188px 0;
 }
 
 .hero-title {
   color: #ffffff;
   font-size: 56px;
   font-weight: 700;
-  line-height: 1.07;
+  max-width: 496px;
+  margin: 0 auto;
 }
 
 .hero-button {
+  display: block;
+  margin: 48px auto 0;
   background-color: #4d5ae5;
   color: #ffffff;
-  font-weight: 500;
-  border: none;
   padding: 16px 32px;
-  margin-top: 48px;
-  cursor: pointer;
+  border: none;
 }
 
 .hero-button:hover,
@@ -176,4 +176,69 @@ button {
 .footer-text {
   color: #ffffff;
   margin-top: 16px;
+}
+
+.container {
+  width: 1158px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.section {
+  padding: 120px 0;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.nav-list {
+  display: flex;
+  gap: 40px;
+}
+
+.benefits-list {
+  display: flex;
+  gap: 24px;
+}
+
+.team-list {
+  display: flex;
+  gap: 24px;
+}
+
+.portfolio-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+}
+
+.section-title {
+  margin-bottom: 72px;
+}
+
+.portfolio-item {
+  border: 1px solid #e7e9fc;
+  border-top: none;
+}
+
+.hero {
+  background-color: #2e2f42;
+  text-align: center;
+  padding: 188px 0;
+}
+
+.hero-title {
+  color: #ffffff;
+  font-size: 56px;
+  font-weight: 700;
+  max-width: 496px;
+  margin: 0 auto;
+}
+
+.hero-button {
+  display: block;
+  margin: 48px auto 0;
 }
